@@ -1,0 +1,18 @@
+{% extends "base.njk" %}
+{% block titulo %}Login{% endblock %}
+{% block contenido %}
+    <h1>Login</h1>
+    <br>
+    <form action="/auth/login" method="post">
+        <div class="form-group">
+            <label for="login">Usuario:</label>
+            <input class="form-control" type="text" name="login" id="login"></div>
+        <br>
+        <div class="form-group">
+            <label for="password">Contraseña:</label>
+            <input class="form-control" type="password" name="password" id="password"></div>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+<br>{% endblock %}

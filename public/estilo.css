@@ -1,0 +1,21 @@
+h1 {
+    color: black;
+    padding-top: 5%;
+  }
+
+  p{
+    font-style: italic;
+  }
+/* 
+  .ficha{
+      border-style:dotted;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  } */
+  
+  .navegador{
+      padding: 2%;
+      background-color:lightgray;
+  }
